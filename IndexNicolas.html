@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Sitio Web</title>
+  <style>
+    h1{
+        text-align: center;
+        color: #000000;
+        margin: 20px;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    h2{
+        text-align: center;
+        color: #000000;
+        margin: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+      margin: 20px;
+    }
+
+    .column {
+      flex: 0 0 30%; /* Establece el ancho de la columna */
+      margin-bottom: 20px;
+    }
+
+    .column img {
+      width: 100%;
+      height: auto;
+    }
+
+    .caption {
+      text-align: center;
+      color: #000000;
+    }
+
+    img {
+      border-radius: 10px; /* Establece un radio de 10px para los bordes redondeados */
+    }
+  </style>
+</head>
+<body>
+    <h1>Real Madrid C.F</h1>
+    <h2>Situado entre los clubes más exitosos del mundo</h2>
+  <div class="container">
+    <div class="column">
+      <a href="historia.html"><img src="/Imagenes/Real-Madrid-Santiago-Bernabeu.jpg" alt="Historia y palmares"></a>
+      <p class="caption">Historia y palmares</p>
+    </div>
+    <div class="column">
+      <a href="jugadores.html"><img src="/Imagenes/jugadores.jpg" alt="Jugadores"></a>
+      <p class="caption">Jugadores</p>
+    </div>
+    <div class="column">
+      <a href="sobre-nosotros.html"><img src="/Imagenes/escudo.jpg" alt="Sobre nosotros"></a>
+      <p class="caption">Sobre nosotros</p>
+    </div>
+  </div>
+</body>
+</html>
