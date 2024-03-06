@@ -1,10 +1,10 @@
 h1{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-  text-align: center;
   color: #b95f3b;
   margin: 20px;
   margin-bottom: 10px;
   font-size: 50px;
+  text-align: center;
 }
 
 h2{
@@ -14,6 +14,31 @@ h2{
   margin: 20px;
   margin-bottom: 10px;
   font-size: 20px;
+  text-decoration-line: underline;
+}
+
+h3{
+text-align: center;
+color: rgb(211, 147, 29);
+margin: 20px;
+margin-bottom: 10px;
+font-size: 20px;
+text-decoration: underline;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4{
+font-family: "Urbanist", sans-serif;
+font-optical-sizing: auto;
+font-weight: 600;
+font-style: normal;
+}
+
+p{
+font-family: "Lexend", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
 }
 
 body {
@@ -43,10 +68,7 @@ height: auto;
 
 .caption {
 text-align: center;
-color: #8827e2;
-font-size: 20px;
-margin-left: 40px;
-text-decoration: underline;
+color: #000000;
 }
 
 img {
@@ -68,14 +90,5 @@ margin: 0 auto;
 td {
 padding: 10px;
 text-align: center
-}
-
-h1{
-text-align: center;
-}
-
-h2{
-text-align: center;
-text-decoration-line: underline;
 }
   
